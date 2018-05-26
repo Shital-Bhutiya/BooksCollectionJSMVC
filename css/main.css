@@ -1,0 +1,74 @@
+/* align whole text of body into center */
+body {
+    text-align: center;
+}
+/* make diffrent fonts for heading */
+h1{
+    font-family: 'Plaster', cursive;
+}
+
+ul {
+    display: flex;
+    list-style-type: none;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 0;
+}
+
+li {
+    width: 260px;
+    border: 1px solid rgb(212, 210, 210);
+    background-color: #f7f7f7;
+    padding: 10px;
+    border-radius: 5px;
+    margin: 5px;
+}
+
+img {
+    width: 200px;
+    height: 300px;
+    display: block;
+    box-shadow: 1px 1px 10px grey;
+    margin-left:30px
+}
+
+span {
+    display: block;
+    margin: 10px;
+}
+
+.newbook {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+div.newbook div {
+    margin: 10px;
+    font-family: 'Bitter', serif;
+}
+
+ul.books li span {
+    font-family: 'Rancho', cursive;
+    font-size: x-large;
+}
+
+body div input {
+    background-repeat: no-repeat;
+    background-position: right center;
+    border: 1px solid rgb(212, 210, 210);
+    box-shadow: 1px 1px 10px grey;
+    padding: 9px;
+}
+
+input[type=button] {
+    font-family: 'Bitter', serif;
+    cursor: pointer;
+    width: 100px;
+    box-shadow: 1px 1px 10px grey;
+    border: 1px solid;
+}
+
+input[type=button]:hover {
+    background-color: rgb(109, 209, 109);
+}
