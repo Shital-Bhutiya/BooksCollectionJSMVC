@@ -13,6 +13,7 @@ const model = {
                 title: "I was told to come alone",
                 author: "Souad Mekhennet",
                 year: 2017
+                
             },
             {
                 cover: "https://images.gr-assets.com/books/1394343439l/7218334.jpg",
@@ -34,12 +35,11 @@ const model = {
             }
         ]
     },
-
     // return all books informations
     getAllBooks: function () {
         return this.arr;
     },
-
+    
     // add new books into our collaction(array).
     addNewBook: function (obj) {
         this.arr.push(obj);
